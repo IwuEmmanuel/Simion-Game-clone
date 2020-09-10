@@ -112,7 +112,7 @@ function nextSequence() {
 function playSound(name) {
 
   //3. Take the code we used to play sound in the nextSequence() function and add it to playSound().
-  var randomAudio = new Audio("sounds/" + name + ".mp3");
+  var randomAudio = new Audio(name + ".mp3");
   randomAudio.play();
 
 }
